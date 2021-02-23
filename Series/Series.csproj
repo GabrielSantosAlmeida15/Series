@@ -9,8 +9,4 @@
     <Compile Remove="Enum.cs" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Interfaces\" />
-  </ItemGroup>
-
 </Project>
