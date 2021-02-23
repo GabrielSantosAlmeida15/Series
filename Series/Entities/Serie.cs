@@ -31,7 +31,11 @@ namespace Series
         {
             return Id;
         }
-        
+
+        public bool RetornaExcluido()
+        {
+            return Excluido;
+        }
         public void Excluir()
         {
             Excluido = true;
@@ -42,7 +46,8 @@ namespace Series
             return "Genero" + Genero + Environment.NewLine +
                     "Titulo" + Titulo + Environment.NewLine +
                     "Descrição" + Descricao + Environment.NewLine +
-                    "Ano" + Ano + Environment.NewLine;
+                    "Ano" + Ano + Environment.NewLine +
+                    "Excluido" + Excluido;
                 
 
 
